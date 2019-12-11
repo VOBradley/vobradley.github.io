@@ -1,4 +1,4 @@
-$(document).ready(function) {
+$(document).ready(function() {
     $(window).scroll(function(event) {
         var s=$ (this).scrollTop();
         var w=$ (this).outerWidth();
