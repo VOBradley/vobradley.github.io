@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
 
-  background: rgb(1, 0, 15);
+  background: rgb(17, 15, 36);
 }
 
 *, *:before, *:after {
@@ -148,4 +148,38 @@ body {
 
 .stack-vscode {
   filter: invert(68%) sepia(48%) saturate(5719%) hue-rotate(166deg) brightness(98%) contrast(93%);
+}
+
+.portfolio-block {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.portfolio-block img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.portfolio-block h4 {
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+}
+
+.portofolio-tech {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portofolio-tech span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 5px;
+  font-size: 12px;
+  background-color: rgb(0, 116, 211);
+  color: white;
+  margin-right: 5px;
 }
