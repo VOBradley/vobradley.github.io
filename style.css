@@ -2,7 +2,10 @@ body,html {
   margin: 0;
   padding: 0;
 
-  background: rgb(17, 15, 36);
+  background-color: #000108;
+  background-image:  linear-gradient(30deg, #01010c 12%, transparent 12.5%, transparent 87%, #01010c 87.5%, #01010c), linear-gradient(150deg, #01010c 12%, transparent 12.5%, transparent 87%, #01010c 87.5%, #01010c), linear-gradient(30deg, #01010c 12%, transparent 12.5%, transparent 87%, #01010c 87.5%, #01010c), linear-gradient(150deg, #01010c 12%, transparent 12.5%, transparent 87%, #01010c 87.5%, #01010c), linear-gradient(60deg, #01010c77 25%, transparent 25.5%, transparent 75%, #01010c77 75%, #01010c77), linear-gradient(60deg, #01010c77 25%, transparent 25.5%, transparent 75%, #01010c77 75%, #01010c77);
+  background-size: 26px 46px;
+  background-position: 0 0, 0 0, 13px 23px, 13px 23px, 0 0, 13px 23px;
 }
 
 *, *:before, *:after {
