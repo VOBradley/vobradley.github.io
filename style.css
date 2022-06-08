@@ -27,7 +27,7 @@ body,html {
 }
 
 .social-block img {
-  width: 90%;
+  width: 70%;
 }
 
 .social-telegram {
@@ -157,7 +157,9 @@ body,html {
 .stack-github {
   filter: invert(53%) sepia(72%) saturate(5947%) hue-rotate(345deg) brightness(111%) contrast(106%);
 }
-
+.stack-nuxt {
+  background-color: rgb(35, 194, 35);
+}
 .portfolio-block {
   display: flex;
   flex-direction: column;
@@ -225,3 +227,4 @@ body,html {
 .color-update {
   background-color: #37D300 !important;
 }
+
